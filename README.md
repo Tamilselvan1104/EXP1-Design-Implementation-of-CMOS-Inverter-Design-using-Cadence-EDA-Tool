@@ -1,20 +1,21 @@
 # Ex No: 01     Design & Implementation of CMOS Inverter Design Using Cadence EDA Tools   
 
-Aim:
+## Aim:
 To design and implement a CMOS inverter circuit using Cadence EDA tools, analyse its electrical characteristics, and understand the fundamental principles of CMOS technology, including the design process, layout, and simulation techniques.
 
-Tools Required:
+## Tools Required:
 •	Personal Computer
 •	Cadence Virtuoso Software
 
-S C H E M A T I C S I M U L A T I O N - PROCEDURE FOR CREATING THE SCHEMATIC SIMULATION -Commands to get into Cadence
+## SCHEMATIC SIMULATION - PROCEDURE FOR CREATING THE SCHEMATIC SIMULATION -Commands to get into Cadence
 
 1.	Right Click and open the terminal window
 2.	Type the following commands as follows and press enter.
 •	csh
 •	source /cadence/install/cshrc
-•	virtuoso 
-Procedure for Schematic simulation using Cadence
+•	virtuoso
+
+## Procedure for Schematic simulation using Cadence
 
 1.	Now two windows must open i) virtuoso/command interpreter window ii)”Whats New…”
 2.	Close the 2nd window
@@ -26,12 +27,13 @@ iv.	Create the test Cell view.
 v.	Analog simulation by spectre
 
 
-i)	Procedure for Creating New Library.
+## i)	Procedure for Creating New Library.
 •	File –New – Library
 •	Name: Give name for ur library Ex: VLSILAB_EXP_1
 •	Enable Attach to an existing technology library, Click OK
-•	Attach the library to the technology library gpdk045.Click OK
-ii)	Create Schematic Cell view.
+•	Attach the library to the technology library gpdk045.Click OK 
+
+## ii)	Create Schematic Cell view.
 •	Go to 1st window i.e virtuoso (CIW)
 •	File-New-Cell view
 •	Setup the new file form
@@ -50,7 +52,7 @@ ii)	Create Schematic Cell view.
 ![2024-09-03 (8)](https://github.com/user-attachments/assets/07eb96e2-e630-4835-9d4b-75f6f1acc378)
 
  
-iii)	Creating the Symbol for schematic Cell view
+## iii)	Creating the Symbol for schematic Cell view
 
 •	In the schematic window, execute 
 	Create – Cell view – From Cell view
@@ -67,7 +69,7 @@ iii)	Creating the Symbol for schematic Cell view
  ![image](https://github.com/user-attachments/assets/e947dcda-b023-4668-a955-a5faf0949702)
 
 
-iv)	Creating the new test cell view
+## iv)	Creating the new test cell view
 
 •	Go to CIW window, Execute File-New-Cell view
 	Setup the new file form
@@ -79,7 +81,7 @@ iv)	Creating the new test cell view
 ![2024-09-03 (8)](https://github.com/user-attachments/assets/bc61ffbe-a8d9-48de-89ed-a0128d6bb82e)
 
  
-Analog simulation by SPECTRE.
+## Analog simulation by SPECTRE.
 •	In test cell view window
 •	Launch – ADE L(Analog Design Environment)
 	Execute Setup—Simulation/directory/Host A new window opens
@@ -91,14 +93,15 @@ Analog simulation by SPECTRE.
 •	Execute Simulation -- Net list and Run
  ![image](https://github.com/user-attachments/assets/3aac50ec-bc0f-406e-be2e-a504b8afa8c9)
 
-For Transient Analysis Settings and Output
+## For Transient Analysis Settings and Output
  
  
  ![image](https://github.com/user-attachments/assets/92d14f32-8ba5-4fed-978a-38c360b8e305)
 
  ![2024-09-03 (6)](https://github.com/user-attachments/assets/3a6d577e-65f8-424f-8c5c-4924f015206c)
 
- For DC Analysis Settings and Output
+## For DC Analysis Settings and Output
+
 ![image](https://github.com/user-attachments/assets/0ee74107-e03a-4204-b685-83ced611c993)
 
 ![Screenshot (11)](https://github.com/user-attachments/assets/03cd3e5d-ad28-4eed-b69d-75c154328eb9)
@@ -110,7 +113,7 @@ For Transient Analysis Settings and Output
 
  
 
-Results:
+## Results:
 1.	Successfully designed the CMOS inverter schematic using Cadence EDA tools.
 2.	The simulation results demonstrated the correct logic operation of the inverter, where the output voltage switches between high (Vdd) and low (0V) levels, corresponding to the input voltage transitions.
 3.	The Voltage Transfer Characteristic (VTC) curve was plotted, showing the relationship between input and output voltages.
