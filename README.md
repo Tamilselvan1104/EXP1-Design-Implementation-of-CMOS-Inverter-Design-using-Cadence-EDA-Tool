@@ -37,9 +37,9 @@ v.	Analog simulation by spectre
 •	Go to 1st window i.e virtuoso (CIW)
 •	File-New-Cell view
 •	Setup the new file form
-	Library: Select the one you created.
-	Cell: Give the experiment name Ex: Inverter ViewSchematic
-	Type: Schematic press OK
+•	Library: Select the one you created.
+•	Cell: Give the experiment name Ex: Inverter ViewSchematic
+•	Type: Schematic press OK
 •	Add the required components from the libraries and make the connections.
 	Go to instance fixed menu or use shortcut key “I” from keypad to go instances
 	Click on browse. This opens the library browser
@@ -78,7 +78,8 @@ v.	Analog simulation by spectre
 	View: Schematic
 	Type: Schematic press OK
 •	Follow the step 3(ii) d to make the required connections
-![2024-09-03 (8)](https://github.com/user-attachments/assets/bc61ffbe-a8d9-48de-89ed-a0128d6bb82e)
+![2024-09-03 (1)](https://github.com/user-attachments/assets/e9afff52-ae86-489c-81ee-208b99667c85)
+
 
  
 ## Analog simulation by SPECTRE.
