@@ -5,7 +5,6 @@ To design and implement a CMOS inverter circuit using Cadence EDA tools, analyse
 
 ## Tools Required:
 •	Personal Computer
-
 •	Cadence Virtuoso Software
 
 ## SCHEMATIC SIMULATION - PROCEDURE FOR CREATING THE SCHEMATIC SIMULATION -Commands to get into Cadence
