@@ -1,9 +1,11 @@
 # Ex No: 01     Design & Implementation of CMOS Inverter Design Using Cadence EDA Tools   
 
 ## Aim:
+
 To design and implement a CMOS inverter circuit using Cadence EDA tools, analyse its electrical characteristics, and understand the fundamental principles of CMOS technology, including the design process, layout, and simulation techniques.
 
 ## Tools Required:
+
 •	Personal Computer
 •	Cadence Virtuoso Software
 
@@ -28,12 +30,14 @@ v.	Analog simulation by spectre
 
 
 ## i)	Procedure for Creating New Library.
+
 •	File –New – Library
 •	Name: Give name for ur library Ex: VLSILAB_EXP_1
 •	Enable Attach to an existing technology library, Click OK
 •	Attach the library to the technology library gpdk045.Click OK 
 
 ## ii)	Create Schematic Cell view.
+
 •	Go to 1st window i.e virtuoso (CIW)
 •	File-New-Cell view
 •	Setup the new file form
@@ -83,6 +87,7 @@ v.	Analog simulation by spectre
 
  
 ## Analog simulation by SPECTRE.
+
 •	In test cell view window
 •	Launch – ADE L(Analog Design Environment)
 •	Execute Setup—Simulation/directory/Host A new window opens
@@ -115,6 +120,7 @@ v.	Analog simulation by spectre
  
 
 ## Results:
+
 1.	Successfully designed the CMOS inverter schematic using Cadence EDA tools.
 2.	The simulation results demonstrated the correct logic operation of the inverter, where the output voltage switches between high (Vdd) and low (0V) levels, corresponding to the input voltage transitions.
 3.	The Voltage Transfer Characteristic (VTC) curve was plotted, showing the relationship between input and output voltages.
